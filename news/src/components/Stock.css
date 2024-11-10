@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.stock-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: 80vh;
+    /* Limit height for scrolling */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    padding: 10px;
+    /* Optional padding */
+    border: 1px solid #ddd;
+    /* Optional border for better visibility */
+    border-radius: 10px;
+    /* Optional rounded corners */
+}
+
+.stock-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.stock-card:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+p {
+    margin: 5px 0;
+}

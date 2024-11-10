@@ -1,0 +1,25 @@
+/* Default light mode styles */
+.settings {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode styles */
+.settings.dark {
+    background-color: #333;
+    color: white;
+}
+
+.google-translate {
+    margin-bottom: 20px;
+}
+
+.theme-toggle {
+    margin-top: 20px;
+}
+
+/* Optional: Style the checkbox for the toggle */
+.theme-toggle input {
+    margin-left: 10px;
+}
